@@ -7,3 +7,10 @@ def fib_series(num):
 
     else:
         return fib_series(num - 1) + fib_series(num - 2)
+
+def factorial(num):
+    if num is 0 or 1:
+        return 1
+
+    else:
+        return num * factorial(num - 1)
