@@ -9,7 +9,7 @@ def fib_series(num):
         return fib_series(num - 1) + fib_series(num - 2)
 
 def factorial(num):
-    if num is 0 or 1:
+    if num == 0 or num == 1:
         return 1
 
     else:

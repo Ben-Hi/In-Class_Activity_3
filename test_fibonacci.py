@@ -23,3 +23,12 @@ def test_fib_series_base_zero():
 
 def test_fib_series_eight():
     assert fibonacci.fib_series(8) == 21
+
+def test_factorial_base_zero():
+    assert fibonacci.factorial(0) == 1
+
+def test_factorial_base_one():
+    assert fibonacci.factorial(1) == 1
+
+def test_factorial_five():
+    assert fibonacci.factorial(5) == 120
