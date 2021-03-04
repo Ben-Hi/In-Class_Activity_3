@@ -1,8 +1,8 @@
 def fib_series(num):
-    if num is 0:
+    if num == 0:
         return 0
 
-    elif num is 1:
+    elif num == 1:
         return 1
 
     else:
